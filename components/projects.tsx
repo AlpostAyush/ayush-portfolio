@@ -37,8 +37,8 @@ export default function Projects() {
       id: 2,
       title: "Personal Portfolio Website",
       description:
-        "A responsive portfolio showcasing projects, achievements, and certifications, targeting over 1,000 unique monthly visitors.",
-      tags: ["React.js", "Tailwind CSS", "Next.js", "Framer Motion"],
+        "A responsive portfolio showcasing projects, achievements, and certifications, targeting over 1,000 unique monthly visitors. Integrated EmailJS for seamless contact form functionality, enabling direct email communication from the frontend without requiring a backend server.",
+      tags: ["React.js", "Tailwind CSS", "Next.js", "Framer Motion", "EmailJS"],
       liveLink: "https://AlpostAyush.vercel.app",
       githubLink: "https://github.com/AlpostAyush/ayush-portfolio",
       features: [
@@ -46,6 +46,7 @@ export default function Projects() {
         "Asynchronous data fetching for optimal performance",
         "Component-based architecture with 99.9% uptime",
         "Interactive animations and transitions",
+        "EmailJS integration for real-time contact form submissions",
       ],
     },
   ])

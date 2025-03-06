@@ -84,10 +84,10 @@ export default function CompetitiveProgramming() {
                   </div>
                   <ul className="space-y-2 pl-7 list-disc">
                     <li>Contest Rating: 2,037 (Knight)</li>
-                    <li>Global Ranking: 13,980 / 672,255</li>
+                    <li>Top 2% of all Global active Contest Participants on the Platform</li>
                     <li>Solved 641+ problems across multiple languages</li>
-                    <li>Participated in 12 contests</li>
-                  </ul>
+                    <li>Achieved global rank of 547 in a weekly contest round</li>
+                    </ul>
                 </div>
               </div>
             </TiltCard>
