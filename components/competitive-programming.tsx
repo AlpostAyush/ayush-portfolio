@@ -1,7 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { TrophyIcon, CodeIcon, BarChart2Icon, AwardIcon } from "lucide-react"
+import { TrophyIcon, CodeIcon, BarChart2Icon, AwardIcon, ExternalLinkIcon } from "lucide-react"
 import TiltCard from "@/components/tilt-card"
 
 export default function CompetitiveProgramming() {
@@ -71,11 +71,22 @@ export default function CompetitiveProgramming() {
                     <h4 className="font-bold">Achievements</h4>
                   </div>
                   <ul className="space-y-2 pl-7 list-disc">
-                    <li>Top 2% globally with 2040+ rating</li>
+                    <li>Top 2% globally with 2040+ rating among active contest participants</li>
                     <li>Solved 870+ algorithmic challenges</li>
                     <li>Mastered advanced data structures and algorithms</li>
                     <li>Consistent problem-solving streak</li>
                   </ul>
+                </div>
+                <div className="mt-4 text-center">
+                  <a
+                    href="https://leetcode.com/4ush"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 text-primary font-medium hover:underline"
+                  >
+                    View my LeetCode profile
+                    <ExternalLinkIcon className="h-4 w-4" />
+                  </a>
                 </div>
               </div>
             </TiltCard>
@@ -150,4 +161,3 @@ export default function CompetitiveProgramming() {
     </section>
   )
 }
-
