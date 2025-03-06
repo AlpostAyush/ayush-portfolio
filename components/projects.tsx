@@ -5,13 +5,11 @@ import { motion } from "framer-motion"
 import { ExternalLinkIcon, GithubIcon } from "lucide-react"
 import { Badge } from "@/components/ui/badge"
 import TiltCard from "@/components/tilt-card"
-import Image from "next/image"
 
 type Project = {
   id: number
   title: string
   description: string
-  image: string
   tags: string[]
   liveLink: string
   githubLink: string
@@ -25,10 +23,9 @@ export default function Projects() {
       title: "Codeforces User Submissions Dashboard",
       description:
         "A real-time dashboard aggregating Codeforces submissions, processing over 5,000 submissions per day with optimized API integration.",
-      image: "/placeholder.svg?height=400&width=600",
       tags: ["JavaScript", "HTML/CSS", "Node.js", "API Integration", "Data Visualization"],
       liveLink: "https://codeforces-user-submissions-1.onrender.com/",
-    githubLink: "https://github.com/AlpostAyush/codeforces-user-submissions",
+      githubLink: "https://github.com/AlpostAyush/codeforces-user-submissions",
       features: [
         "Optimized API integration with response times under 500ms for 95% of queries",
         "Enhanced interactive charts that boosted user engagement by 30%",
@@ -41,10 +38,9 @@ export default function Projects() {
       title: "Personal Portfolio Website",
       description:
         "A responsive portfolio showcasing projects, achievements, and certifications, targeting over 1,000 unique monthly visitors.",
-      image: "/placeholder.svg?height=400&width=600",
       tags: ["React.js", "Tailwind CSS", "Next.js", "Framer Motion"],
-      liveLink: "#",
-      githubLink: "#",
+      liveLink: "https://your-deployed-link.com",
+      githubLink: "https://github.com/AlpostAyush/ayush-portfolio",
       features: [
         "Advanced UI/UX design with responsive layouts",
         "Asynchronous data fetching for optimal performance",
@@ -79,23 +75,12 @@ export default function Projects() {
             >
               <TiltCard>
                 <div className="bg-card rounded-lg overflow-hidden shadow-lg h-full flex flex-col">
-                  <div className="relative h-48 overflow-hidden">
-                    <Image
-                      src={project.image || "/placeholder.svg"}
-                      alt={project.title}
-                      width={600}
-                      height={400}
-                      className="w-full h-full object-cover transition-transform hover:scale-105 duration-300"
-                    />
-                  </div>
                   <div className="p-6 flex-1 flex flex-col">
                     <h3 className="text-xl font-bold mb-2">{project.title}</h3>
                     <p className="text-foreground/70 mb-4">{project.description}</p>
 
                     <div className="mb-4">
-                    <h4 className="font-semibold text-primary mb-2">
-                    Key Features
-                    </h4>
+                      <h4 className="font-semibold text-primary mb-2">Key Features</h4>
                       <ul className="list-disc pl-5 space-y-1 text-sm">
                         {project.features.map((feature, index) => (
                           <li key={index}>{feature}</li>
@@ -139,10 +124,11 @@ export default function Projects() {
         </div>
 
         <div className="text-center mt-12">
-          <p className="text-foreground/70 italic">"Turning complex problems into elegant solutions through code."</p>
+          <p className="text-foreground/70 italic">
+            "Turning complex problems into elegant solutions through code."
+          </p>
         </div>
       </div>
     </section>
   )
 }
-

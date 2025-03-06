@@ -87,7 +87,7 @@ export default function Hero() {
 
           <MagneticButton>
             <a
-              href="mailto:ayushranjan2968@gmail.com"
+              href="mailto:ayushranjan2958@gmail.com"
               className="bg-card p-3 rounded-full hover:bg-primary/20 transition-colors"
             >
               <MailIcon className="h-5 w-5" />
