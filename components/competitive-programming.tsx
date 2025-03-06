@@ -1,7 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { TrophyIcon, CodeIcon, BarChart2Icon, AwardIcon, ExternalLinkIcon } from "lucide-react"
+import { TrophyIcon, CodeIcon, BarChart2Icon, AwardIcon } from "lucide-react"
 import TiltCard from "@/components/tilt-card"
 
 export default function CompetitiveProgramming() {
@@ -20,6 +20,7 @@ export default function CompetitiveProgramming() {
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          {/* LeetCode Card */}
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -30,15 +31,26 @@ export default function CompetitiveProgramming() {
               <div className="bg-card rounded-lg p-6 shadow-md h-full">
                 <div className="flex items-center gap-3 mb-4">
                   <div className="bg-primary/10 p-3 rounded-full">
-                    <CodeIcon className="h-6 w-6 text-primary" />
+                    <a
+                      href="https://leetcode.com/u/4ush/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {/* LeetCode Icon */}
+                      <img
+                        src="download (2).png"
+                        alt="LeetCode"
+                        className="h-6 w-6"
+                      />
+                    </a>
                   </div>
                   <h3 className="text-xl font-bold">LeetCode</h3>
                 </div>
 
                 <div className="mb-6">
                   <div className="flex justify-between items-center mb-2">
-                    <span className="font-medium">Rating</span>
-                    <span className="leetcode-rating font-bold text-xl">2040+</span>
+                    <span className="font-medium">Contest Rating</span>
+                    <span className="leetcode-rating font-bold text-xl">2,037</span>
                   </div>
                   <div className="w-full bg-muted rounded-full h-2 mb-4">
                     <motion.div
@@ -52,7 +64,7 @@ export default function CompetitiveProgramming() {
 
                   <div className="flex justify-between items-center mb-2">
                     <span className="font-medium">Problems Solved</span>
-                    <span className="font-bold">870+</span>
+                    <span className="font-bold">641+</span>
                   </div>
                   <div className="w-full bg-muted rounded-full h-2 mb-4">
                     <motion.div
@@ -71,22 +83,11 @@ export default function CompetitiveProgramming() {
                     <h4 className="font-bold">Achievements</h4>
                   </div>
                   <ul className="space-y-2 pl-7 list-disc">
-                    <li>Top 2% globally with 2040+ rating among active contest participants</li>
-                    <li>Solved 870+ algorithmic challenges</li>
-                    <li>Mastered advanced data structures and algorithms</li>
-                    <li>Consistent problem-solving streak</li>
+                    <li>Contest Rating: 2,037 (Knight)</li>
+                    <li>Global Ranking: 13,980 / 672,255</li>
+                    <li>Solved 641+ problems across multiple languages</li>
+                    <li>Participated in 12 contests</li>
                   </ul>
-                </div>
-                <div className="mt-4 text-center">
-                  <a
-                    href="https://leetcode.com/4ush"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 text-primary font-medium hover:underline"
-                  >
-                    View my LeetCode profile
-                    <ExternalLinkIcon className="h-4 w-4" />
-                  </a>
                 </div>
               </div>
             </TiltCard>
@@ -102,7 +103,18 @@ export default function CompetitiveProgramming() {
               <div className="bg-card rounded-lg p-6 shadow-md h-full">
                 <div className="flex items-center gap-3 mb-4">
                   <div className="bg-primary/10 p-3 rounded-full">
-                    <BarChart2Icon className="h-6 w-6 text-primary" />
+                    <a
+                      href="https://www.codechef.com/users/code4yu69"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {/* CodeChef Icon */}
+                      <img
+                        src="download.png"
+                        alt="CodeChef"
+                        className="h-6 w-6"
+                      />
+                    </a>
                   </div>
                   <h3 className="text-xl font-bold">CodeChef</h3>
                 </div>
