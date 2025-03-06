@@ -76,7 +76,7 @@ export default function Hero() {
 
           <MagneticButton>
             <a
-              href="https://linkedin.com/in/ayushranjan"
+              href="https://www.linkedin.com/in/ayush-ranjan-26a999348"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-card p-3 rounded-full hover:bg-primary/20 transition-colors"
