@@ -126,7 +126,7 @@ export default function Contact() {
                   </svg>
                 </a>
                 <a
-                  href="https://https://www.linkedin.com/in/ayush-ranjan-26a999348"
+                  href="https://www.linkedin.com/in/ayush-ranjan-26a999348"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-card p-3 rounded-full hover:bg-primary/20 transition-colors"
