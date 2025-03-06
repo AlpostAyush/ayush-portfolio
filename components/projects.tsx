@@ -39,7 +39,7 @@ export default function Projects() {
       description:
         "A responsive portfolio showcasing projects, achievements, and certifications, targeting over 1,000 unique monthly visitors.",
       tags: ["React.js", "Tailwind CSS", "Next.js", "Framer Motion"],
-      liveLink: "https://your-deployed-link.com",
+      liveLink: "https://AlpostAyush.vercel.app",
       githubLink: "https://github.com/AlpostAyush/ayush-portfolio",
       features: [
         "Advanced UI/UX design with responsive layouts",
