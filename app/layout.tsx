@@ -18,6 +18,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+        <head>
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="https://www.shutterstock.com/image-vector/ap-letter-logo-design-on-600nw-1835904001.jpg"
+        />
+      </head>
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
           {children}
