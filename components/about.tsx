@@ -29,13 +29,7 @@ export default function About() {
           >
             <div className="absolute inset-0 bg-primary/20 rounded-2xl transform rotate-3"></div>
             <div className="absolute inset-0 bg-background border-2 border-primary rounded-2xl transform -rotate-3 overflow-hidden">
-              <Image
-                src="/placeholder.svg?height=600&width=600"
-                alt="Ayush Ranjan"
-                width={600}
-                height={600}
-                className="object-cover w-full h-full"
-              />
+  
             </div>
           </motion.div>
 
