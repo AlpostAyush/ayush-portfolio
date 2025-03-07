@@ -23,7 +23,7 @@ const navItems = [
 { name: "Projects", href: "#projects" },
 { name: "Skills", href: "#skills" },
 { name: "Education", href: "#education" },
-{ name: "Resume", href: "https://drive.google.com/file/d/1UA2UM9pbNZ3_X0f4YzTMgpvmPaJNMWx4/view?usp=drivesdk"},
+{ name: "Resume", href: "https://drive.google.com/file/d/1cvuLnT_DXByIxBEegRy-jVPHw6zLg6FE/view?usp=drivesdk"},
 { name: "Contact", href: "#contact" },
 ]
 
